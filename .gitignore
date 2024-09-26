@@ -1,0 +1,15 @@
+Frontend-AndroidStudio_Codes/*.iml
+Frontend-AndroidStudio_Codes/.gradle
+Frontend-AndroidStudio_Codes/local.properties
+Frontend-AndroidStudio_Codes/.idea/caches
+Frontend-AndroidStudio_Codes/.idea/libraries
+Frontend-AndroidStudio_Codes/.idea/modules.xml
+Frontend-AndroidStudio_Codes/.idea/workspace.xml
+Frontend-AndroidStudio_Codes/.idea/navEditor.xml
+Frontend-AndroidStudio_Codes/.idea/assetWizardSettings.xml
+Frontend-AndroidStudio_Codes/.DS_Store
+Frontend-AndroidStudio_Codes/build
+Frontend-AndroidStudio_Codes/captures
+Frontend-AndroidStudio_Codes/.externalNativeBuild
+Frontend-AndroidStudio_Codes/.cxx
+Frontend-AndroidStudio_Codes/local.properties

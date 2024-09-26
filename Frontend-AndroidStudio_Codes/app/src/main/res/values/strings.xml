@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">phishFinal</string>
+    <string name="button1">button1</string>
+    <string name="button2">button2</string>
+    <string name="some_id">
+        \u00ed\u0086\u00b5\u00ed\u0099\u0094\u00eb\u0085\u00b9\u00ec\u009d\u008c \u00eb\u00b6\u0084\u00ec\u0084\u009d \n\u00eb\u00b0\u0094\u00eb\u00a1\u009c\u00ea\u00b0\u0080\u00ea\u00b8\u00b0
+    </string>
+</resources>

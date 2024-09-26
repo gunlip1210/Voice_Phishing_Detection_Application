@@ -1,0 +1,110 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_lar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="@color/blue">
+
+    <TextView
+        android:id="@+id/textViewFragment4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="마지막 통화\n보이스피싱 위험도 분석"
+        android:lineSpacingExtra="-7dp"
+        android:fontFamily="@font/notosans_kr_medium"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textViewFragment5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:text="사용자님이 지금까지 분석한"
+        android:fontFamily="@font/notosans_kr_extralight"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textViewFragment6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:text="전화의 통계를 한 눈에 볼 수 있어요."
+        android:fontFamily="@font/notosans_kr_extralight"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"/>
+
+    <ImageButton
+        android:id="@+id/buttonGoBack2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:padding="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="buttonGoBack2"
+        android:src="@drawable/button_go_back1"
+        android:background="@android:color/transparent"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 이미지 삽입 -->
+        <ImageView
+            android:id="@+id/backgroundImage"
+            android:layout_width="match_parent"
+            android:layout_height="680dp"
+            android:layout_marginTop="180dp"
+            android:src="@drawable/whitebackground"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="55dp"
+            android:max="100"
+            android:progress="0"
+            android:layout_centerInParent="true"
+            android:progressDrawable="@android:drawable/progress_horizontal"/>
+
+        <TextView
+            android:id="@+id/textViewFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0102023149 - 90%"
+            android:layout_marginTop="-70dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textViewFragment1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="긴급한 상황과 금전적 요구를 결합한 전형적인 보이스피싱 수법\n가족 구성원(딸)의 위험을 언급하며 감정적 조작 시도\n큰 금액(3000만원)을 요구하는 점\n계좌번호를 요구하는 점\n상황 설명이 모호하고 비논리적임\n피해자를 압박하고 급하게 결정을 내리도록 유도\n공식 기관을 사칭하는 듯한 언급(검찰청)"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:lineSpacingExtra="7dp"
+            android:textColor="@color/black"/>
+
+
+
+    </FrameLayout>
+
+</RelativeLayout>

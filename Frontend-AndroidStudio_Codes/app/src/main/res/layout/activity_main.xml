@@ -1,0 +1,74 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- 제목 텍스트 -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="- Phish -\n보이스피싱 예방"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:fontFamily="@font/notosans_kr_medium"
+        android:textSize="40sp"
+        android:gravity="center" />
+
+    <!-- 첫 번째 ImageButton -->
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="321dp"
+        android:layout_height="140dp"
+        android:padding="0dp"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/button1"
+        android:src="@drawable/button1" />
+
+    <!-- 두 번째 ImageButton -->
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="321dp"
+        android:layout_height="140dp"
+        android:padding="0dp"
+        android:layout_below="@id/button1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/button2"
+        android:src="@drawable/button2" />
+
+    <!-- 투명한 세 번째 Button (위쪽) -->
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/button2"
+        android:layout_alignStart="@id/button1"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="-20dp"
+        android:text="page3 >"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <!-- 투명한 네 번째 Button (아래쪽) -->
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/button3"
+        android:layout_alignStart="@id/button1"
+        android:layout_marginTop="-15dp"
+        android:layout_marginLeft="-20dp"
+        android:text="page4 >"
+        android:background="@android:color/transparent"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+</RelativeLayout>
